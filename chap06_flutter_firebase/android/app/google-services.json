@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "433813326148",
+    "project_id": "example-bbc14",
+    "storage_bucket": "example-bbc14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433813326148:android:ac9c5e008fd3b91bedaf11",
+        "android_client_info": {
+          "package_name": "com.example.chap06_flutter_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr5YkRgu_TIIe7gr7VgIYRQOSSpSk0xro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
