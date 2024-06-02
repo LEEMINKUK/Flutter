@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -51,8 +52,8 @@ class _HttpAppState extends State<HttpApp> {
                       child: Container(
                         child: Column(
                           children: <Widget>[
-                            Text(data![index]['name'].toString()),
-                            Text(data![index]['species'].toString()),
+                            // Text(data![index]['name'].toString()),
+                            Text(data![index]['islander'].toString()),
                             // Image.network(
                             //   data![index]['image_url'],
                             //   // alignment: Alignment.topLeft,
@@ -92,7 +93,7 @@ class _HttpAppState extends State<HttpApp> {
         var translatedName =
             await translator.translate(villager['name'], from: 'en', to: 'ko');
         villager['name'] = translatedName.text;
-        // print(translatedName);
+        print(translatedName);
       }
 
       setState(() {
